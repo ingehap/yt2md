@@ -1,0 +1,14 @@
+# Python dependencies for yt2md.py
+#   pip install -U -r requirements.txt
+#
+# ALSO REQUIRED (system package, not pip): FFmpeg
+#   macOS:          brew install ffmpeg
+#   Debian/Ubuntu:  sudo apt install ffmpeg
+#   Windows:        winget install Gyan.FFmpeg
+#   https://ffmpeg.org/download.html
+#
+# Keep yt-dlp current: YouTube changes frequently and yt-dlp ships fixes often.
+#   pip install -U yt-dlp
+
+yt-dlp>=2025.01.01      # https://github.com/yt-dlp/yt-dlp
+faster-whisper>=1.1.0   # https://github.com/SYSTRAN/faster-whisper  (turbo model support)
